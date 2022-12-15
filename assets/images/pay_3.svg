@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="102.307" height="56" viewBox="0 0 102.307 56">
+  <g id="pay_3" transform="translate(-0.245 5.296)">
+    <path id="Path_1369" data-name="Path 1369" d="M1283.539-4186.126" transform="translate(-1249.302 4226.286)" fill="none" stroke="#707070" stroke-width="1"/>
+    <text id="s" transform="translate(0.245 39.704)" fill="#979797" font-size="42" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">s</tspan></text>
+    <text id="C" transform="translate(35.16 39.704)" fill="#979797" font-size="42" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">c</tspan></text>
+    <text id="Pay" transform="translate(60.552 29.291)" fill="#979797" font-size="26" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">pay</tspan></text>
+    <text id="T" transform="translate(20.877 39.704)" fill="#979797" font-size="42" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">t</tspan></text>
+    <line id="Line_228" data-name="Line 228" y1="5.881" transform="translate(31.11 18.734)" fill="none" stroke="#979797" stroke-width="5"/>
+    <line id="Line_229" data-name="Line 229" y1="5.881" transform="translate(25.229 18.734)" fill="none" stroke="#fff" stroke-width="6"/>
+  </g>
+</svg>

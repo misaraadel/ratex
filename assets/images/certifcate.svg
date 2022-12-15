@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="175" height="177" viewBox="0 0 175 177">
+  <defs>
+    <filter id="Ellipse_327" x="0" y="2" width="175" height="175" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_328" x="37" y="47" width="101" height="100" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="certifcate" transform="translate(-44 -45.534)">
+    <g transform="matrix(1, 0, 0, 1, 44, 45.53)" filter="url(#Ellipse_327)">
+      <circle id="Ellipse_327-2" data-name="Ellipse 327" cx="78.5" cy="78.5" r="78.5" transform="translate(9 8)" fill="#fff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 44, 45.53)" filter="url(#Ellipse_328)">
+      <ellipse id="Ellipse_328-2" data-name="Ellipse 328" cx="41.5" cy="41" rx="41.5" ry="41" transform="translate(46 53)" fill="#d4af37"/>
+    </g>
+    <rect id="Rectangle_10509" data-name="Rectangle 10509" width="22.143" height="39.857" rx="2" transform="matrix(0.819, 0.574, -0.574, 0.819, 144.186, 78.779)" fill="#d4af37"/>
+    <rect id="Rectangle_10510" data-name="Rectangle 10510" width="22.143" height="39.857" rx="2" transform="matrix(0.891, -0.454, 0.454, 0.891, 104.001, 88.616)" fill="#d4af37"/>
+    <path id="Icon_awesome-star" data-name="Icon awesome-star" d="M24.5,1.827,17.8,15.409,2.811,17.593A3.284,3.284,0,0,0,1,23.194L11.838,33.76,9.273,48.685a3.281,3.281,0,0,0,4.76,3.457L27.44,45.095l13.407,7.047a3.283,3.283,0,0,0,4.76-3.457L43.042,33.76,53.884,23.194a3.284,3.284,0,0,0-1.816-5.6L37.082,15.409l-6.7-13.581a3.285,3.285,0,0,0-5.888,0Z" transform="translate(104.001 111.511)" fill="#707070" opacity="0.42"/>
+    <ellipse id="Ellipse_329" data-name="Ellipse 329" cx="19" cy="18.5" rx="19" ry="18.5" transform="translate(155 45.534)" fill="#4aa223"/>
+    <path id="Icon_awesome-check" data-name="Icon awesome-check" d="M8.239,22.312.355,14.428a1.213,1.213,0,0,1,0-1.715L2.071,11a1.213,1.213,0,0,1,1.715,0L9.1,16.308,20.472,4.932a1.213,1.213,0,0,1,1.715,0L23.9,6.648a1.213,1.213,0,0,1,0,1.715L9.955,22.312A1.213,1.213,0,0,1,8.239,22.312Z" transform="translate(161.284 50.495)" fill="#fff"/>
+    <text id="_1" data-name="1" transform="translate(124 147.534)" fill="#fff" font-size="27" font-family="Cairo-Bold, Cairo" font-weight="700"><tspan x="0" y="0">1</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="177" height="177" viewBox="0 0 177 177">
+  <defs>
+    <filter id="Ellipse_327" x="0" y="0" width="177" height="177" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="location" transform="translate(-45 -47.464)">
+    <g transform="matrix(1, 0, 0, 1, 45, 47.46)" filter="url(#Ellipse_327)">
+      <circle id="Ellipse_327-2" data-name="Ellipse 327" cx="79.5" cy="79.5" r="79.5" transform="translate(9 6)" fill="#fff"/>
+    </g>
+    <path id="Icon_material-location-searching" data-name="Icon material-location-searching" d="M75.321,38.522a33.3,33.3,0,0,0-29.4-29.4V1.5h-7.4V9.126a33.3,33.3,0,0,0-29.4,29.4H1.5v7.4H9.126a33.3,33.3,0,0,0,29.4,29.4v7.626h7.4V75.321a33.3,33.3,0,0,0,29.4-29.4h7.626v-7.4Zm-33.1,29.617A25.915,25.915,0,1,1,68.139,42.224,25.9,25.9,0,0,1,42.224,68.139Z" transform="translate(89.881 91.554)" fill="#d4af37" opacity="0.824"/>
+    <path id="Icon_material-location-on" data-name="Icon material-location-on" d="M19.513,3A12,12,0,0,0,7.5,15.013c0,9.01,12.013,22.31,12.013,22.31s12.013-13.3,12.013-22.31A12,12,0,0,0,19.513,3Zm0,16.3a4.29,4.29,0,1,1,4.29-4.29A4.292,4.292,0,0,1,19.513,19.3Z" transform="translate(113.584 115.659)" fill="#707070"/>
+  </g>
+</svg>

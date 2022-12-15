@@ -1,0 +1,272 @@
+@media (max-width: 999px) {
+ 
+  .mobile-order-1 {
+    order: 1;
+  }
+
+  .mobile-order-0 {
+    order: 0;
+  }
+
+  .navbar {
+    .hamburger {
+      display: block !important;
+    }
+
+    .brand-name img {
+      width: 86px !important;
+    }
+
+    .button-contain {
+      display: none;
+    }
+
+    .navbar-nav {
+      width: 100%;
+      height: 100vh;
+      position: absolute;
+      padding: 20px 15px;
+      background-color: #fff;
+      z-index: 99;
+      top: 100px;
+      left: -100%;
+      flex-direction: column !important;
+      justify-content: flex-start;
+      align-items: flex-start;
+      align-content: flex-start;
+      transition: all .3s linear;
+
+      &.active-nav {
+        left: 0px;
+      }
+
+      li {
+        width: 100%;
+        margin: 0px !important;
+        padding: 10px 0px;
+        border-bottom: 1px solid rgba($color: #D4AF37, $alpha: 0.3);
+
+        &:last-child {
+          border-bottom: 0px !important;
+        }
+
+        a {
+          width: 100%;
+
+          &::after {
+            display: none;
+          }
+        }
+      }
+    }
+
+    .brand-name img {
+      object-position: left !important;
+      height: 66px !important;
+    }
+
+    &.scrolled {
+      .navbar-nav {
+        top: 89px;
+        height: 100vh;
+      }
+    }
+  }
+
+  header {
+    padding-top: 80px;
+    padding-bottom: 50px;
+
+    .image-content {
+      height: 250px;
+    }
+
+    h1 {
+      font-size: 18px !important;
+
+      span {
+        font-size: 18px !important;
+      }
+    }
+  }
+
+  .rate ,
+  .wallet,
+  .register-section {
+    padding-top: 150px;
+  }
+
+  .heading {
+    width: 100%;
+    margin-bottom: 20px;
+
+    h1 {
+      font-size: 18px !important;
+
+      span {
+        font-size: 18px !important;
+      }
+    }
+  }
+
+  .register-section .box,
+  .features .box {
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    
+    .contain {
+      width: 100% !important;
+      margin-top: 20px;
+      text-align: center;
+
+      h1 {
+        font-size: 18px !important;
+
+        span {
+          font-size: 18px !important;
+        }
+      }
+
+      .custom-btn {
+        margin: auto !important;
+      }
+    }
+  }
+
+  .button-contain {
+    width: 100% !important;
+    flex-direction: column;
+
+    .custom-btn {
+      width: 100% !important;
+
+      &:nth-child(1) {
+        margin: 0px 0px 10px 0px !important;
+      }
+    }
+  }
+
+  .profile-contain {
+    width: 100% !important;
+    padding: 35px 10px 20px !important;
+
+    .copy-data {
+      top: 10px !important;
+      right: 15px !important;
+    }
+  }
+
+  .register-section .box .contain h2 {
+    font-size: 16px !important;
+  }
+
+  .rate {
+    .rata-box {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+
+      .rate-data {
+        width: 100% !important;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        margin-top: 10px;
+
+        .image-cotnent, .button-box {
+          width: 100% !important;
+        }
+        
+        .button-box {
+          justify-content: center;
+        }
+
+        .custom-btn {
+          width: 140px;
+
+          span {
+            font-size: 15px ;
+          }
+        }
+      }
+    }
+  }
+
+  .wallet .wallet-cash {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+    .contain {
+      width: 100%;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      text-align: center;
+
+      h2 {
+        font-size: 18px !important;
+        margin-top: 10px;
+      }
+    } 
+  }
+
+  .rate {
+    .nav {
+      width: 100%;
+      margin: 0px !important;
+
+      li {
+        width: 50%;
+        margin-inline-end: 0px;
+
+        a {
+          width: 100%;
+        }
+      }
+    }
+
+    .tips-box {
+      flex-direction: column;
+      width: 100%;
+      justify-content: center !important;
+      align-items: center !important;
+      align-content: center !important;
+  
+      .money, .contain {
+        width: 100%;
+      }
+  
+      .contain {
+        width: 100%;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+        align-content: center !important;
+  
+        p {
+          margin-bottom: 15px;
+        }
+  
+        .verfiy-button,
+        .button-contain {
+          width: 100%;
+          flex-direction: row !important;
+          justify-content: flex-start;
+          align-items: center;
+          align-content: center;
+  
+          .custom-btn {
+            margin-inline-end: 10px;
+          }
+        }
+      }
+    }
+  }
+}
