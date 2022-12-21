@@ -538,6 +538,144 @@ header {
     }
   }
 
+  .payment-img-contain{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin-bottom: 30px;
+
+    input[type="file"]{
+      display: none;
+    }
+
+    .form-label-shape{
+      width: 100%;
+      height: 200px;
+      display: flex;
+      align-items:center;
+      justify-content: center;
+      background-color: #FBFBFB;
+      border-radius: 15px;
+      border: 1px dashed #EFEFEF;
+      flex-direction: column;
+      text-align: center;
+      cursor: pointer;
+
+      .upload-icon{
+        width: 41px;
+        height: 41px;
+        object-fit: contain;
+        margin-bottom: 10px;
+      }
+
+      .title{
+        color: #161615;
+        font-weight: 800;
+        line-height: 25px;
+        font-size: 16px;
+
+        &::after{
+          display: none;
+        }
+      }
+
+      &:hover{
+        border-color: #E0D4BE;
+        .title{
+          color: #E0D4BE;
+        }
+      }
+    }
+
+    .payment-img{
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      border-radius: 20px;
+      border: 1px solid #E0D4BE;
+      overflow: hidden;
+      display: none;
+      z-index: 9;
+
+      &::after{
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(180deg , #E0D4BE , transparent);
+        top: 0;
+        left: 0;
+        z-index: 1;
+      }
+
+      .remove-Img{
+        width: 24px;
+        height: 24px;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        cursor: pointer;
+        z-index: 9;
+
+        img{
+          object-fit: contain !important;
+        }
+      }
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+
+  .payment-img-content{
+    width: 100%;
+    height: 200px;
+    position: relative;
+    border-radius: 20px;
+    border: 1px solid transparent;
+    overflow: hidden;
+    z-index: 9;
+    transition: all .3s linear;
+
+    &:hover{
+      transform: translateY(-10px);
+    }
+
+    &::after{
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(180deg , #E0D4BE , transparent);
+      top: 0;
+      left: 0;
+      z-index: 1;
+    }
+    .remove-Img{
+      width: 24px;
+      height: 24px;
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      cursor: pointer;
+      z-index: 9;
+
+      img{
+        object-fit: contain !important;
+      }
+    }
+    img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
   p {
     font-size: 15px;
     font-weight: 500;
