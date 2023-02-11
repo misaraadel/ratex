@@ -10,6 +10,13 @@
   --secondary-filter: invert(90%) sepia(24%) saturate(521%) hue-rotate(347deg) brightness(101%) contrast(101%);
 }
 
+html[dir="rtl"]  {
+  .profile .profile-contain .copy-data  {
+    right: unset !important;
+    left: 40px !important;
+  }
+}
+
 .heading {
   width: 40%;
   text-align: center;

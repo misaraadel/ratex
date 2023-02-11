@@ -73,6 +73,23 @@
     }
   }
 
+  html[dir="rtl"] {
+    .navbar .navbar-nav {
+      left: unset;
+      right: -100%;
+
+      &.active-nav {
+        left: unset;
+        right: 0px !important;
+      }
+    }
+
+    .profile .profile-contain .copy-data  {
+      right: unset !important;
+      left: 15px !important;
+    }
+  }
+
   header {
     padding-top: 80px;
     padding-bottom: 50px;
